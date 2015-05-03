@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>百度推广 消息中心</title>
+    <link rel="stylesheet" type="text/css" href="<%= grunt.config.get('pkg.name') %>.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>消息中心</h1>
+        <div class="main-wrapper">
+            <div class="main-tab">
+                <a href="#/" class="main-tab-item" id="main-tab-show">
+                    <span class="main-tab-item-icon message-show-tab-icon"></span>
+                    <span class="main-tab-item-arrow-wrapper"><span class="main-tab-item-arrow"></span></span>
+                </a>
+                <a href="#/setting" class="main-tab-item" id="main-tab-setting">
+                    <span class="main-tab-item-icon message-setting-tab-icon"></span>
+                    <span class="main-tab-item-arrow-wrapper"><span class="main-tab-item-arrow"></span></span>
+                </a>
+            </div>
+            <div id="main" class="container"></div>
+        </div>
+    </div>
+    <div class="foot">
+        <p>
+            ©2014 Baidu&nbsp;home<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+        </p>
+    </div>
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="angular-ui-router.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="app/show/tab/main.js"></script>
+    <script type="text/javascript" src="app/show/list/main.js"></script>
+    <script type="text/javascript" src="app/show/main.js"></script>
+    <script type="text/javascript" src="app/setting/main.js"></script>
+    <script type="text/javascript" src="app/main.js"></script>
+</body>
+</html>
